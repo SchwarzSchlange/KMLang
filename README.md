@@ -62,7 +62,7 @@ exit
 
 ```
 
-I was too lazy to remove parameters after function call because they will be permenant :( 
+I was too lazy to remove parameters after function call therefore they will be permenant :( 
 
 ### Used Library to Math Parse : org.mariuszgromada.math.mxparser | http://mathparser.org 
 I downloaded from Nuget

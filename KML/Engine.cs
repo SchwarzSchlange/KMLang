@@ -153,10 +153,10 @@ namespace KML
 
                       
                         string to_param = Parser.GetParameterString(tokens);
-                        Console.WriteLine("to_param ==>" + to_param);
+                        //Console.WriteLine("to_param ==>" + to_param);
 
                         string to_run = Parser.GetStringBetweenBreckets(tokens);
-                        Console.WriteLine("to_run ==>" + to_run);
+                        //Console.WriteLine("to_run ==>" + to_run);
 
 
                         Global.AddBlock(new Block(BLOCK_NAME,to_run,to_param));
@@ -325,8 +325,8 @@ namespace KML
                                 
                             }
 
-                            Console.WriteLine($"index_1_=_before {erste_val_brec_index_start}");
-                            Console.WriteLine($"index_2_=_before {erste_val_brec_index_end}");
+                            //Console.WriteLine($"index_1_=_before {erste_val_brec_index_start}");
+                            //Console.WriteLine($"index_2_=_before {erste_val_brec_index_end}");
 
                         }
 
@@ -381,9 +381,9 @@ namespace KML
                             Console.WriteLine($"index_2_=_after {zweite_val_brec_index_end}");
                         }
 
-                        Console.WriteLine("index:"+equal_index);
-                        Console.WriteLine($"[{erste_val}]");
-                        Console.WriteLine($"[{zweite_val}]");
+                        //Console.WriteLine("index:"+equal_index);
+                        //Console.WriteLine($"[{erste_val}]");
+                        //Console.WriteLine($"[{zweite_val}]");
 
                         Console.WriteLine("\n");
 

@@ -17,6 +17,11 @@ wait{MS_TIME}
 -----------------
 Function Create:
 block NAME(TO_DO1 | TO_DO2 | TO_DO3)[PARAMETERS]
+
+Exp:
+block sum(out({$x + $y}))[x,y]
+call sum[60,40]
+OUTPUT ==> 100
 -----------------
 Function Call:
 call NAME[PARAMETERS] (Even if there is no parameter, something must be written in this field (Like : NULL)) 

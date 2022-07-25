@@ -1,4 +1,4 @@
-# KMLang
+# KMLang [Bugy 😑]
 ### Much improved version of the Vann language.
 
 
